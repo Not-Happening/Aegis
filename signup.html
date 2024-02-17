@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="signup-container">
+        <a href="./home.html" class="back-button">&larr;</a>
+        <h1 style="color: black;">SIGN-UP</h1>
+        <div class="profile-picture">
+            <input type="file" id="profilePicture" name="profilePicture" accept="image/*">
+            <label for="profilePicture">
+                <i class="profile-icon">👤</i>
+            </label>
+        </div>
+        <form id="signupForm">
+            <input type="text" id="userName" name="userName" placeholder="USER NAME" required>
+            <input type="email" id="email" name="email" placeholder="MAIL" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+" required>
+            <input type="password" id="password" name="password" placeholder="PASSWORD" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+            <button type="submit" id="signupButton">Sign Up</button>
+        </form>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
