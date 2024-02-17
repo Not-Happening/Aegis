@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Journey</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+        <div class="journey-form">
+            <div class="form-header">
+                <div class="back-arrow">
+                    <h4>
+                    <a href="./login.html" class="back-arrow">🔙</a>
+                    </h4>
+                </div>
+                <div class="start-journey">
+                    <h1>Start Journey</h1>
+                </div>
+            </div>
+            <form id="journeyForm">
+                <label for="starting">STARTING</label>
+                <select id="starting" name="starting">
+                    <option value="Bhimavaram">Bhimavaram(AP)India</option>
+                    <option value="Hyderabad">Hyderabad(TS)India</option>
+                </select>
+
+                <label for="destination">DESTINATION</label>
+                <select id="destination" name="destination">
+                    <option value="Kandukur">Kandukur(AP)India</option>
+                    <option value="Kakinada">Kakinada(AP)India</option>
+                </select>
+
+                <label for="transport">MODE OF TRANSPORT</label>
+                <input type="text" id="transport" name="transport" placeholder="Enter mode of transport">
+
+                <label for="vehicleNo">VEHICLE NO:</label>
+                <input type="text" id="vehicleNo" name="vehicleNo" placeholder="Enter vehicle number">
+                
+                <input type="file" accept="image/*" id="vehicleImage" name="vehicleImage" capture>
+
+                <button type="button" id="startJourneyButton">START JOURNEY !!</button>
+            </form>
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
