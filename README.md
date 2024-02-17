@@ -37,6 +37,6 @@ AEGIS is a travel safety application inspired by the functionalities of Circle o
 - **Live Location Sharing:**
   - The app automatically sends the user's live location to the designated help center.
   - 
-## Contributing
+## Level
 
 This is a pre-prototype version of the application done as a website.
