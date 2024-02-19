@@ -40,3 +40,8 @@ AEGIS is a travel safety application inspired by the functionalities of Circle o
 ## Level
 
 This is a pre-prototype version of the application done as a website.
+
+
+## Setting up 
+
+load all the files into your compiler. preferably VSCode. Run the main.html for the function from the first page.
